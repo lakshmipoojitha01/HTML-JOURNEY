@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Akkula Lakshmi Poojitha - CSS Box Model</title>
+
+    <style>
+
+        /* Universal Selector */
+        * {
+            font-family: Arial;
+        }
+
+        /* Element Selector */
+        body {
+            background-color: #E6E6FA;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        p {
+            color: black;
+        }
+
+        /* First Box */
+        .box1 {
+            background-color: lightblue;
+            padding: 20px;
+            border: 3px solid blue;
+            margin: 20px;
+            box-sizing: content-box;
+            width: 300px;
+        }
+
+        /* Second Box */
+        .box2 {
+            background-color: lightgreen;
+            padding: 30px;
+            border: 5px dashed green;
+            margin: 40px;
+            box-sizing: border-box;
+            width: 400px;
+        }
+
+        /* Third Box */
+        .box3 {
+            background-color: lightpink;
+            padding: 15px;
+            border: 4px dotted red;
+            margin: 30px;
+            box-sizing: content-box;
+            width: 350px;
+        }
+
+        /* Fourth Box */
+        .box4 {
+            background-color: lightyellow;
+            padding: 25px;
+            border: 6px double orange;
+            margin: 50px;
+            box-sizing: border-box;
+            width: 400px;
+        }
+
+        /* ID Selector */
+        #footer {
+            background-color: #483D8B;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #footer h2,
+        #footer p {
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<center>
+    <h1>CSS BOX MODEL</h1>
+    <h2>Understanding Content, Padding, Border and Margin</h2>
+    <p>Every HTML Element is a Box!</p>
+</center>
+
+<hr>
+
+<h2>INTRODUCTION TO CSS BOX MODEL</h2>
+
+<p>
+    Hello! My name is <b>Akkula Lakshmi Poojitha</b>.
+    I am a B.Tech graduate in Artificial Intelligence
+    and Data Science from Dhanalakshmi College of Engineering.
+</p>
+
+<p>
+    The CSS Box Model is an important concept in web development.
+    Every HTML element is treated as a rectangular box.
+    It helps us control the space around elements and
+    the appearance of content on a webpage.
+</p>
+
+<p>
+    The CSS Box Model contains four main parts:
+    Content, Padding, Border and Margin.
+</p>
+
+<hr>
+
+<h2>1. CONTENT</h2>
+
+<p>
+    Content is the actual information inside an HTML element.
+    It can be text, images or other HTML elements.
+</p>
+
+<hr>
+
+<h2>2. PADDING</h2>
+
+<p>
+    Padding is the space between the content and the border.
+    It creates space inside the box.
+</p>
+
+<hr>
+
+<h2>3. BORDER</h2>
+
+<p>
+    Border is the line surrounding the padding and content.
+    We can change its width, style and color.
+</p>
+
+<hr>
+
+<h2>4. MARGIN</h2>
+
+<p>
+    Margin is the space outside the border.
+    It creates distance between one box and another element.
+</p>
+
+<hr>
+
+<center>
+    <h1>MY CSS BOX MODEL EXAMPLES</h1>
+    <p>Different boxes with different CSS properties</p>
+</center>
+
+<h2>BOX 1 - CONTENT BOX</h2>
+
+<div class="box1">
+    <h3>First Box</h3>
+    <p>
+        This is my first CSS box.
+        It has a light blue background,
+        padding, a solid blue border and margin.
+    </p>
+    <p>Box Sizing: Content Box</p>
+</div>
+
+<hr>
+
+<h2>BOX 2 - BORDER BOX</h2>
+
+<div class="box2">
+    <h3>Second Box</h3>
+    <p>
+        This is my second CSS box.
+        It has a light green background,
+        more padding, a dashed green border
+        and a different margin.
+    </p>
+    <p>Box Sizing: Border Box</p>
+</div>
+
+<hr>
+
+<h2>BOX 3 - CONTENT BOX</h2>
+
+<div class="box3">
+    <h3>Third Box</h3>
+    <p>
+        This is my third CSS box.
+        It has a light pink background,
+        dotted red border and different spacing.
+    </p>
+    <p>Box Sizing: Content Box</p>
+</div>
+
+<hr>
+
+<h2>BOX 4 - BORDER BOX</h2>
+
+<div class="box4">
+    <h3>Fourth Box</h3>
+    <p>
+        This is my fourth CSS box.
+        It has a light yellow background,
+        double orange border and different padding.
+    </p>
+    <p>Box Sizing: Border Box</p>
+</div>
+
+<hr>
+
+<h2>DIFFERENCE BETWEEN CONTENT-BOX AND BORDER-BOX</h2>
+
+<p>
+    <b>Content-box:</b>
+    The width applies only to the content.
+    Padding and border are added outside the specified width.
+</p>
+
+<p>
+    <b>Border-box:</b>
+    The specified width includes the content, padding and border.
+    This makes the total box width easier to control.
+</p>
+
+<hr>
+
+<h2>CONCLUSION</h2>
+
+<p>
+    The CSS Box Model helps us manage the size and spacing
+    of HTML elements. Content, padding, border and margin
+    work together to create the layout of a webpage.
+</p>
+
+<p>
+    Understanding content-box and border-box helps developers
+    control element sizes more effectively.
+</p>
+
+<hr>
+
+<div id="footer">
+    <h2>THANK YOU FOR VISITING!</h2>
+    <p>Keep Learning - Keep Growing!</p>
+    <p>Created by Akkula Lakshmi Poojitha</p>
+</div>
+
+</body>
+</html>

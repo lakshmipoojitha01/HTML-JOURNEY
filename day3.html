@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 3 - HTML Tables | Poojitha</title>
+</head>
+
+<body>
+
+    <h1>DAY 3 - HTML TABLES</h1>
+    <h2>Learning Tables in HTML</h2>
+    <p>Practice with Rows, Columns, Colspan and Rowspan</p>
+
+    <hr>
+
+    <!-- Section 1: Student Details Table -->
+    <h2>1. Student Details Table</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+            <th>Course</th>
+            <th>College</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Akkula Lakshmi Poojitha</td>
+            <td>B.Tech AI & DS</td>
+            <td>Dhanalakshmi College of Engineering</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Ravi Kumar</td>
+            <td>B.Tech CSE</td>
+            <td>Dhanalakshmi College of Engineering</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Ramya</td>
+            <td>B.Tech IT</td>
+            <td>Dhanalakshmi College of Engineering</td>
+        </tr>
+
+        <tr>
+            <td>104</td>
+            <td>Praveen</td>
+            <td>B.Tech ECE</td>
+            <td>Dhanalakshmi College of Engineering</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Section 2: Academic Details -->
+    <h2>2. Academic Details Table</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Degree</th>
+            <th>Branch</th>
+            <th>CGPA</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Akkula Lakshmi Poojitha</td>
+            <td>B.Tech</td>
+            <td>AI & Data Science</td>
+            <td>8.05</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Ravi Kumar</td>
+            <td>B.Tech</td>
+            <td>CSE</td>
+            <td>8.20</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Ramya</td>
+            <td>B.Tech</td>
+            <td>IT</td>
+            <td>8.50</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Section 3: Horizontal Student Table -->
+    <h2>3. Horizontal Student Details</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <td>Akkula Lakshmi Poojitha</td>
+        </tr>
+
+        <tr>
+            <th>Qualification</th>
+            <td>B.Tech</td>
+        </tr>
+
+        <tr>
+            <th>Specialization</th>
+            <td>Artificial Intelligence & Data Science</td>
+        </tr>
+
+        <tr>
+            <th>College</th>
+            <td>Dhanalakshmi College of Engineering</td>
+        </tr>
+
+        <tr>
+            <th>Graduation Year</th>
+            <td>2026</td>
+        </tr>
+
+        <tr>
+            <th>CGPA</th>
+            <td>8.05</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Section 4: Table Using Colspan -->
+    <h2>4. Table Using Colspan</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th colspan="3">Student Academic Information</th>
+        </tr>
+
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Branch</th>
+        </tr>
+
+        <tr>
+            <td>Akkula</td>
+            <td>Lakshmi Poojitha</td>
+            <td>AI & Data Science</td>
+        </tr>
+
+        <tr>
+            <th colspan="2">CGPA</th>
+            <td>8.05</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Section 5: Weekly Learning Timetable -->
+    <h2>5. Weekly Learning Timetable</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Day</th>
+            <th>9 AM - 10 AM</th>
+            <th>10 AM - 11 AM</th>
+            <th>11 AM - 12 PM</th>
+            <th>12 PM - 1 PM</th>
+            <th>1 PM - 2 PM</th>
+            <th>2 PM - 3 PM</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+            <td rowspan="6">Lunch Break</td>
+            <td>Python</td>
+            <td>Practice</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Python</td>
+            <td>SQL</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>Practice</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>JavaScript</td>
+            <td>Python</td>
+            <td>SQL</td>
+            <td>Problem Solving</td>
+            <td>Practice</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>Python</td>
+            <td>SQL</td>
+            <td>Practice</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>Python</td>
+            <td>JavaScript</td>
+            <td>SQL</td>
+            <td>Mini Project</td>
+            <td>Practice</td>
+        </tr>
+
+        <tr>
+            <td>Saturday</td>
+            <td>Revision</td>
+            <td>Python</td>
+            <td>SQL</td>
+            <td>Project Work</td>
+            <td>Practice</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Section 6: What I Learned Today -->
+    <h2>6. What I Learned Today</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>HTML Tag</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr>
+            <td>table</td>
+            <td>Creates an HTML table</td>
+        </tr>
+
+        <tr>
+            <td>tr</td>
+            <td>Creates a table row</td>
+        </tr>
+
+        <tr>
+            <td>th</td>
+            <td>Creates a table heading</td>
+        </tr>
+
+        <tr>
+            <td>td</td>
+            <td>Creates a table data cell</td>
+        </tr>
+
+        <tr>
+            <td>colspan</td>
+            <td>Merges multiple columns</td>
+        </tr>
+
+        <tr>
+            <td>rowspan</td>
+            <td>Merges multiple rows</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <footer>
+        <p>Created by Akkula Lakshmi Poojitha</p>
+        <p>B.Tech - Artificial Intelligence & Data Science</p>
+        <p>Dhanalakshmi College of Engineering | 2026</p>
+    </footer>
+
+</body>
+</html>
